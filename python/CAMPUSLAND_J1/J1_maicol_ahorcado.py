@@ -12,25 +12,25 @@ for x in randomWord:
   print("_", end=" ")
 
 def imprimir_ahorcado(incorrecto):
-  if(incorrecto == 0):
+  if(incorrecto == 1):
     print("\n+---+")
     print("    |")
     print("    |")
-    print("    |")
-    print("   ===")
-  elif(incorrecto == 1):
-    print("\n+---+")
-    print(" O  |")
-    print("/|\ |")
     print("    |")
     print("   ===")
   elif(incorrecto == 2):
     print("\n+---+")
     print(" O  |")
     print("/|\ |")
-    print("/   |")
+    print("    |")
     print("   ===")
   elif(incorrecto == 3):
+    print("\n+---+")
+    print(" O  |")
+    print("/|\ |")
+    print("/   |")
+    print("   ===")
+  elif(incorrecto == 4):
     print("\n+---+")
     print(" O   |")
     print("/|\  |")
