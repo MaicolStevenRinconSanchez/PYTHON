@@ -1,5 +1,3 @@
-# IMC.py
-
 import os
 
 def salud():
