@@ -34,3 +34,5 @@ def imc(codigo,nombre, edad, altura, peso):
 
     return f"IMC: {indice_masa_corporal:.2f}, Estado: {estado}"
 
+$ git push origin CAMPUSLAND_J1
+# Pushes the changes in your local repository up to the remote repository you specified as the origin
