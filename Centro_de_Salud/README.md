@@ -3,16 +3,13 @@ Este es un programa simple en Python diseñado para registrar información perso
 El programa solicita información personal de cada estudiante, incluyendo código, nombre, edad, altura y peso.
 Se pueden registrar hasta 20 estudiantes. Después de cada registro, la pantalla se limpia para una mejor experiencia visual.
 import IMC
-import os
-===========================================================  
-ǁ  registro_estudiantil = []                              ǁ
-ǁ  for i in range(20):                                    ǁ
-ǁ      print(f"Datos del estudiante {i + 1}:")            ǁ
-ǁ      estudiante = IMC.salud()                           ǁ
-ǁ      registro_estudiantil.append(estudiante.copy())     ǁ
-ǁ      os.system('cls')                                   ǁ
-ǁ                                                         ǁ
-===========================================================
+import os  
+  registro_estudiantil = []                              
+  for i in range(20):                                    
+      print(f"Datos del estudiante {i + 1}:")            
+      estudiante = IMC.salud()                           
+      registro_estudiantil.append(estudiante.copy())     
+      os.system('cls')                                   
 2.Cálculo del IMC y Análisis de Salud:
 El programa calcula el IMC para cada estudiante y muestra un mensaje que indica el estado de salud de cada uno.
 for estudiante in registro_estudiantil:
