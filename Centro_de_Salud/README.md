@@ -1,4 +1,5 @@
 Este es un programa simple en Python diseñado para registrar información personal de estudiantes, calcular su Índice de Masa Corporal (IMC) y proporcionar un análisis de la salud de la comunidad estudiantil.
+
 1.Registro de Estudiantes:
 El programa solicita información personal de cada estudiante, incluyendo código, nombre, edad, altura y peso.
 Se pueden registrar hasta 20 estudiantes. Después de cada registro, la pantalla se limpia para una mejor experiencia visual.
